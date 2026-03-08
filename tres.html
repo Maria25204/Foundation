@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Examen css</title>
+<title>Foundation</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css">
 
@@ -39,6 +39,7 @@
 </div>
 
 
+
 <div class="grid-x align-center text-center" style="margin-top:40px;">
   <div class="cell medium-8">
     <h1 style="font-size: 60px; font-family: Helvetica; color:purple">¡Bienvenidos y Bienvenidas!</h1>
@@ -46,10 +47,31 @@
   </div>
 </div>
 
+<body>
+  <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+    <h1>Sobre Nosotros</h1>
+
+<p>Somos una organización dedicada a ofrecer talleres educativos y creativos orientados al desarrollo personal y académico. Nuestro propósito es brindar espacios de aprendizaje donde las personas puedan descubrir y fortalecer sus habilidades en diferentes áreas del conocimiento</p>
+<p>Creemos que la educación no solo debe centrarse en la teoría, sino también en la práctica, la creatividad y la participación activa. Por ello, nuestros talleres están diseñados para fomentar el pensamiento crítico, la imaginación y la confianza en cada estudiante.
+
+Contamos con instructores capacitados que guían a los participantes en cada proceso de aprendizaje, utilizando métodos dinámicos y actividades que hacen del aprendizaje una experiencia interesante y motivadora.
+
+Nuestros talleres abarcan áreas como matemáticas, pintura, poesía, informática e inglés, permitiendo a los estudiantes desarrollar tanto habilidades académicas como creativas. Cada programa está pensado para adaptarse a diferentes edades y niveles de conocimiento.</p>
+  </div>
+    </p>
+
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+    <button class="button" data-toggle="offCanvasLeft" style="background-color:purple; margin-left: 20px;">Visualizar más opciones</button>
+    
+    
+  </div>
+</body>
+
 
 <div class="grid-container">
 
-  <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+  <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3">
 
     <div class="cell">
       <div class="card" style="border: 2px solid blue">
@@ -106,7 +128,6 @@
 </div>
 
 
-<!-- MAPA -->
 <div class="grid-x align-center text-center" style="margin-top:40px;">
   <div class="cell medium-8">
     <h2 style="color:purple">¡Encuentra el lugar más cercano para ti!</h2>
@@ -135,4 +156,4 @@ $(document).foundation();
 </script>
 
 </body>
-</html>
+</html> 
